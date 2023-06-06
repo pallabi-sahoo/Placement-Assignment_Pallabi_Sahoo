@@ -1,0 +1,149 @@
+Q-3. Consider the ‘Blood Pressure Before’ and ‘Blood Pressure After’ columns from the data and calculate the following
+
+https://drive.google.com/file/d/1mCjtYHiX--mMUjicuaP2gH3k-SnFxt8Y/view?usp=share_
+
+a. Measure the dispersion in both and interpret the results.
+b. Calculate mean and 5% confidence interval and plot it in a graph.
+c. Calculate the Mean absolute deviation and Standard deviation and interpret the results.
+d. Calculate the correlation coefficient and check the significance of it at 1% level of significance.
+
+
+Ans:-
+a. To measure the dispersion in both the 'Blood Pressure Before' and 'Blood Pressure After' columns, we can calculate the range and the standard deviation.
+
+1. Range = Maximum Value - Minimum Value
+
+For 'Blood Pressure Before':
+        Range = 148 - 120 = 28 mmHg
+
+For 'Blood Pressure After':
+        Range = 141 - 118 = 23 mmHg
+
+The range measures the spread or variability of the data. In this case, the 'Blood Pressure Before' column has a larger range than the 'Blood Pressure After' column, indicating greater variability in the former.
+
+2. Standard Deviation: The standard deviation measures the average amount of deviation or dispersion of values from the mean.
+
+For 'Blood Pressure Before':
+Standard Deviation (Blood Pressure Before) ≈ 6.67 mmHg
+
+For 'Blood Pressure After':
+Standard Deviation (Blood Pressure After) ≈ 6.25 mmHg
+
+The standard deviation gives an idea of how spread out the values are from the mean. In this case, both columns have similar standard deviations, indicating comparable levels of dispersion.
+
+In summary, the 'Blood Pressure Before' column has a larger range, suggesting higher variability in the values. However, both columns have similar standard deviations, indicating similar dispersion or spread around their respective means.
+
+
+
+b.To calculate the mean and the 5% confidence interval for both the 'Blood Pressure Before' and 'Blood Pressure After' columns, we can use the formulas mentioned earlier.
+
+1.Mean:
+Mean (Blood Pressure Before) = (130 + 142 + 120 + ... + 139 + 135 + 130) / 100 = 133.91 mmHg
+
+Mean (Blood Pressure After) = (120 + 135 + 118 + ... + 130 + 130 + 135) / 100 = 128.36 mmHg
+
+2. Confidence Interval:  Mean ± (Critical value * Standard Error)
+
+To find the critical value, we can use a standard normal distribution table or calculator. For a 5% confidence level, the critical value is approximately 1.96.
+
+Standard Error = Standard Deviation / √(Number of values) 
+
+For 'Blood Pressure Before':
+Standard Deviation (Blood Pressure Before) ≈ 6.56 mmHg
+
+For 'Blood Pressure After':
+Standard Deviation (Blood Pressure After) ≈ 6.85 mmHg
+
+So, 
+ Standard Error (Blood Pressure Before) = 0.65 mmHg
+ Standard Error (Blood Pressure After) = 0.68 mmHg
+ 
+Now, let's calculate 5% confidence interval for both columns:
+Confidence Interval (Blood Pressure Before) = Mean (Blood Pressure Before) ± (1.96 * Standard Error (Blood Pressure Before)) = (133.91 ± (1.96 * 0.65)) mmHg = (132.6232200691649, 135.1967799308351) 
+
+Confidence Interval (Blood Pressure After) = Mean (Blood Pressure After) ± (1.96 * Standard Error (Blood Pressure After)) = (128.36 ± (1.96 * 0.68)) mmHg = (127.01671489012944, 129.7032851098706)
+
+plot - githublink
+
+
+
+c. To calculate the Mean Absolute Deviation (MAD) and Standard Deviation, you can use the following formulas:
+
+Mean Absolute Deviation:
+MAD = (|x1 - μ| + |x2 - μ| + ... + |xn - μ|) / n
+
+Standard Deviation:
+Standard Deviation = sqrt(((x1 - μ)^2 + (x2 - μ)^2 + ... + (xn - μ)^2) / n)
+
+For 'Blood Pressure Before':-
+
+Calculate the mean:
+μ_before = (130 + 142 + 120 + ... + 135) / 100
+= 133.91
+
+Calculate the Mean Absolute Deviation (MAD):
+MAD_before = (|130 - 133.91| + |142 - 133.91| + ... + |135 - 133.91|) / 100
+= 5.7118
+
+Calculate the Standard Deviation:
+Standard Deviation_before = sqrt(((130 - 133.91)^2 + (142 - 133.91)^2 + ... + (135 - 133.91)^2) / 100)
+= 6.5652
+
+For 'Blood Pressure After':
+
+Calculate the mean:
+μ_after = (120 + 135 + 118 + ... + 130) / 100
+= 128.36
+
+Calculate the Mean Absolute Deviation (MAD):
+MAD_after = (|120 - 128.36| + |135 - 128.36| + ... + |130 - 128.36|) / 100
+= 5.9
+
+Calculate the Standard Deviation:
+Standard Deviation_after = sqrt(((120 - 128.36)^2 + (135 - 128.36)^2 + ... + (130 - 128.36)^2) / 100)
+= 6.8534
+
+The calculations for Mean Absolute Deviation (MAD) and Standard Deviation provide quantitative measures of the dispersion and variability in the 'Blood Pressure Before' and 'Blood Pressure After' data. These values can help interpret the spread of the measurements and understand the degree of deviation from the mean.
+
+d. To calculate the correlation coefficient (r), we can use the following formula:
+
+r = [Σ((x - μ_x)(y - μ_y))] / [√(Σ(x - μ_x)^2) * √(Σ(y - μ_y)^2)]
+
+where:
+x and y are the variables 'Blood Pressure Before' and 'Blood Pressure After', respectively.
+μ_x and μ_y are the means of the two variables.
+
+Using the given dataset, we have the following values:
+
+Mean of 'Blood Pressure Before' (μ_x) = 133.91
+Mean of 'Blood Pressure After' (μ_y) = 128.36
+
+To calculate the correlation coefficient, we need to compute the sums and differences:
+
+Σ((x - μ_x)(y - μ_y)) = (130 - 133.91)(120 - 123.46) + (142 - 133.91)(135 - 123.46) + ...  
+
+Σ(x - μ_x)^2 = (130 - 133.91)^2 + (142 - 133.91)^2 + ... 
+
+Σ(y - μ_y)^2 = (120 - 128.36)^2 + (135 - 128.36)^2 + ... 
+
+Now,the correlation coefficient (r)
+       = [Σ((x - μ_x)(y - μ_y))] / [√(Σ(x - μ_x)^2) * √(Σ(y - μ_y)^2)] =  0.9779
+
+Then to perform the significance test. At the 1% level of significance, we compare the absolute value of the calculated t-value to the critical t-value. If the absolute value of the calculated t-value is greater than the critical t-value, we conclude that there is a significant correlation between the variables. Otherwise, there is no significant correlation.
+
+Critical t-value:
+t_critical = t.ppf(1 - α/2, n - 2) = 2.365
+
+where:
+
+α is the significance level (e.g., 0.01 for a 1% level of significance)
+n is the sample size
+t-value:
+t_value = r * √((n - 2) / (1 - r^2)) = 46.35
+
+where:
+
+r is the correlation coefficient
+n is the sample size
+
+Here the absolute value of the calculated t-value is greater than the critical t-value, So, we conclude that there is a significant correlation between the variables.

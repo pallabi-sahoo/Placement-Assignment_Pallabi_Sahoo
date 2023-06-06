@@ -1,0 +1,11 @@
+Q-6. A pharmaceutical company is developing a drug that is supposed to reduce blood pressure. They conduct a clinical trial with 100 patients and record their blood pressure before and after taking the drug. The company wants to know if the change in blood pressure follows a normal distribution.
+
+https://drive.google.com/file/d/1mCjtYHiX--mMUjicuaP2gH3k-SnFxt8Y/view?usp=share_
+
+Ans:- To determine if the change in blood pressure follows a normal distribution, we can perform a normality test on the data. One commonly used test is the Shapiro-Wilk test. we can calculate the differences between the before and after blood pressure measurements and then perform the Shapiro-Wilk test on those differences.
+
+calculate the differences and perform the normality test using Python:
+
+github link- 
+
+Based on the Shapiro-Wilk test for normality with a significance level of 0.05, the p-value obtained was less than the chosen alpha value. Therefore, we have evidence to reject the null hypothesis that the change in blood pressure does not follows a normal distribution.

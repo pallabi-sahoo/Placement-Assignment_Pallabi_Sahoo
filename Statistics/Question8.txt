@@ -1,0 +1,7 @@
+Q-8. The anxiety levels of 10 participants were measured before and after a new therapy. The scores are not normally distributed. Use the Wilcoxon signed-rank test to test whether the therapy had a significant effect on anxiety levels. The data is given below: Participant Before therapy After therapy Difference
+
+Ans:- calculate the signed ranks and perform the test using Python and the scipy library:
+
+github link-
+
+Based on the Wilcoxon signed-rank test with a significance level of 0.05, the obtained p-value was less than the chosen alpha value. Therefore, we have sufficient evidence to reject the null hypothesis. This indicates that the therapy had a significant effect on anxiety levels based on the given data.

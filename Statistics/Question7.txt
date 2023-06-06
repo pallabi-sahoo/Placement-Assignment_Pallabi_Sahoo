@@ -1,0 +1,52 @@
+Q-7. The equations of two lines of regression, obtained in a correlation analysis between variables X and Y are as follows:
+and . 2𝑋 + 3 − 8 = 0 2𝑌 + 𝑋 − 5 = 0 The variance of 𝑋 = 4 Find the
+a. Variance of Y
+b. Coefficient of determination of C and Y
+c. Standard error of estimate of X on Y and of Y on X.
+
+Ans:- To calculate the variance of Y, we can rearrange the equation of the regression line for Y: 2Y + X - 5 = 0
+
+Solving for Y:
+2Y = -X + 5
+Y = (-1/2)X + 5/2
+
+Since the equation for Y is in the form Y = aX + b, where a is the coefficient of X and b is the intercept, we can determine the variance of Y.
+
+a. Variance of Y:
+The variance of Y can be calculated using the formula: Var(Y) = a^2 * Var(X)
+
+Given that the variance of X is 4, we substitute the values:
+Var(Y) = (-1/2)^2 * 4
+Var(Y) = 1 * 4
+Var(Y) = 4
+Therefore, the variance of Y is 4.
+
+b. Coefficient of determination of X and Y:
+The coefficient of determination, denoted as R^2, measures the proportion of the variance in the dependent variable (Y) that can be explained by the independent variable (X).
+R^2 = (Var(Y) - Var(residuals)) / Var(Y)
+The variance of the residuals can be calculated by subtracting the explained variance from the total variance:
+Var(residuals) = Var(Y) - Var(explained)
+
+In this case, the variance of the residuals is the same as the variance of Y since the regression line explains all the variance.
+Var(residuals) = Var(Y) = 4
+
+Substituting the values:
+R^2 = (4 - 4) / 4
+R^2 = 0 / 4
+R^2 = 0
+
+Therefore, the coefficient of determination (R^2) between X and Y is 0.
+
+c.The standard error of estimate represents the average distance between the observed values and the predicted values obtained from the regression line.
+For the standard error of estimate of X on Y (Sxy), we use the formula:
+
+Sxy = sqrt(Var(residuals))
+Sxy = sqrt(4)
+Sxy = 2
+
+For the standard error of estimate of Y on X (Syx), we use the same formula:
+Syx = sqrt(Var(residuals))
+Syx = sqrt(4)
+Syx = 2
+
+Therefore, the standard error of estimate for both X on Y (Sxy) and Y on X (Syx) is 2.

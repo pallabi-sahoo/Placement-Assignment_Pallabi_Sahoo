@@ -1,0 +1,81 @@
+Q-2. Consider a dataset containing the heights (in centimeters) of 1000 individuals. The mean height is 170 cm with a standard deviation of 10 cm. The dataset is approximately normally distributed, and its skewness is approximately zero. Based on this information, answer the following questions:
+
+a. What percentage of individuals in the dataset have heights between 160 cm and 180 cm?
+b. If we randomly select 100 individuals from the dataset, what is the probability that their average height is greater than 175 cm?
+c. Assuming the dataset follows a normal distribution, what is the z-score corresponding to a height of 185 cm?
+d. We know that 5% of the dataset has heights below a certain value. What is the approximate height corresponding to this threshold?
+e. Calculate the coefficient of variation (CV) for the dataset.
+f. Calculate the skewness of the dataset and interpret the result.
+
+
+Ans:- 
+a. To find the percentage of individuals with heights between 160 cm and 180 cm, we can use the standard normal distribution table or calculator. First, we need to convert the heights to z-scores.
+
+The z-score formula is:
+z = (x - μ) / σ
+
+Where:
+x = height value
+μ = mean height
+σ = standard deviation
+
+For 160 cm:
+z1 = (160 - 170) / 10 = -1
+
+For 180 cm:
+z2 = (180 - 170) / 10 = 1
+
+Now, using the standard normal distribution table, we can find the area under the curve between z1 and z2. The area represents the percentage of individuals with heights between 160 cm and 180 cm.
+
+Looking up the standard normal distribution table, the area between -1 and 1 is approximately 0.6826. This means that approximately 68.26% of individuals in the dataset have heights between 160 cm and 180 cm.
+
+
+b. To find the probability that the average height of 100 randomly selected individuals is greater than 175 cm, we need to consider the sampling distribution of the sample mean. The mean of the sample means will be the same as the population mean (170 cm), but the standard deviation of the sample means (also known as the standard error) will be the population standard deviation divided by the square root of the sample size.
+
+Standard error (SE) = σ / √(n)
+
+Where:
+σ = standard deviation of the population (10 cm)
+n = sample size (100)
+
+SE = 10 / √(100) = 1
+
+Now, we can convert the value 175 cm to a z-score using this formula:
+
+z = (x - μ) / SE
+z = (175 - 170) / 1 = 5
+
+Next, we can find the probability of the average height being greater than 175 cm by calculating the area under the standard normal distribution curve to the right of z = 5. This can be done using the standard normal distribution table or calculator.
+
+However, since z = 5 is quite far from the mean, the probability will be extremely small, close to 0.
+
+c. To find the z-score corresponding to a height of 185 cm, we use the z-score formula:
+
+z = (x - μ) / σ
+
+Substituting the values:
+z = (185 - 170) / 10 = 1.5
+
+Therefore, the z-score corresponding to a height of 185 cm is 1.5.
+
+d. To find the approximate height corresponding to the threshold below which 5% of the dataset falls, we need to find the z-score corresponding to the 5th percentile. The 5th percentile corresponds to a z-score of -1.645. We can use the standard normal distribution table or calculator to determine this.
+
+Next, we can convert the z-score back to the height value using the formula:
+
+x = μ + (z * σ)
+x = 170 + (-1.645 * 10) ≈ 153.55 cm
+
+Therefore, the approximate height corresponding to the threshold where 5% of the dataset falls below is approximately 153.55 cm.
+
+e. The coefficient of variation (CV) is a measure of relative variability and is calculated by dividing the standard deviation by the mean and multiplying by 100 to express it as a percentage.
+
+CV = (σ / μ) * 100
+
+Substituting the values:
+CV = (10 / 170) * 100 ≈ 5.88
+
+Therefore, the coefficient of variation for the dataset is approximately 5.88%.
+
+f. The skewness of a dataset measures the asymmetry of its distribution. Given that the dataset's skewness is approximately zero, it indicates that the dataset is symmetric and has a bell-shaped normal distribution. In other words, the dataset has roughly equal numbers of individuals above and below the mean, resulting in a balanced distribution without any significant skew to either tail.
+
+

@@ -1,0 +1,19 @@
+Q-9. Given the score of students in multiple exams 
+name, Exam1, exam2, final exam
+Karan, 85, 90, 92
+Deepa, 70, 80, 85
+Karthik, 90, 85, 88
+Chandan, 75, 70, 75
+Jeevan, 95, 92, 96
+Test the hypothesis that the mean scores of all the students are the same. If not, name the student with the highest score.
+
+Ans:- To test the hypothesis that the mean scores of all the students are the same, we can use a one-way analysis of variance (ANOVA) test. The ANOVA test compares the means of multiple groups to determine if there are significant differences among them.
+
+In this case, the groups are the different exams (Exam1, Exam2, and Final Exam), and we want to test if the mean scores across all exams are the same.
+
+perform the ANOVA test using Python and the scipy library:-
+github link - 
+
+Based on the one-way ANOVA test with a significance level of 0.05, the obtained p-value was greater than the chosen alpha value. Therefore, we do not have sufficient evidence to reject the null hypothesis. This indicates that the mean scores of the students are the same based on the given data.
+
+
